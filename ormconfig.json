@@ -1,0 +1,7 @@
+{
+    "type": "mysql",
+    "database": "nlw",
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+}
