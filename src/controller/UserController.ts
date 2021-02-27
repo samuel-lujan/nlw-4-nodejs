@@ -3,6 +3,7 @@ import { getRepository } from "typeorm";
 import { Users } from "../models/Users";
 
 class UserController {
+
     async create(request: Request, response: Response){
         const {name, email} =  request.body;
 
@@ -24,6 +25,7 @@ class UserController {
 
         return response.json(user);
     }
+    
 }
 
 export {UserController}

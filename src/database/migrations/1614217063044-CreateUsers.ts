@@ -11,6 +11,8 @@ export class CreateUsers1614217063044 implements MigrationInterface {
                         name: "id",
                         type: "int",
                         isPrimary: true,
+                        isGenerated: true,
+                        generationStrategy: 'increment',
                     },
                     {
                         name: "id_",
